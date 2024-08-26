@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+
+header {
+    background-color: #3b2020;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header :hover {
+    background-color: #d81717;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content-section {
+    padding: 2rem;
+}
+
+.content-section h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-section p {
+    margin-bottom: 1.5rem;
+}
+
+.content-section img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+}
